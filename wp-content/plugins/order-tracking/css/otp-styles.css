@@ -1,0 +1,30 @@
+.ewd-otp-clear {
+  clear:both;
+}
+.ewd-otp-status-message {
+  margin-bottom: 3px;
+}
+.ewd-otp-status-time {
+  margin-bottom: 3px;
+}
+.ewd-otp-tracking-results {
+  margin-bottom: 9px;
+}
+.mb-6 {
+  margin-bottom: 6px;
+}
+.mt-12 {
+  margin-top: 12px;
+}
+.ewd-otp-bold {
+  font-weight: 800;
+}
+.ewd-otp-order-content {
+  position: relative;
+}
+.ewd-otp-bottom-align {
+  position: absolute;
+}
+#ewd-otp-order-number-div {
+  text-align: left;
+}
