@@ -92,11 +92,11 @@ global $woocommerce, $product, $post;
 
 		<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 		<?php //Avada edit ?>
-		
+
 
 		<div class="single_variation_wrap" style="display:none;">
 			<?php do_action( 'woocommerce_before_single_variation' ); ?>
-			
+
 			<div class="variations_button">
 				<?php woocommerce_quantity_input(); ?>
 				<button type="submit" class="single_add_to_cart_button fusion-button button-default button-small alt"><?php echo $product->single_add_to_cart_text(); ?></button>

@@ -34,9 +34,19 @@
     body.side-header-right.layout-boxed-mode #side-header .side-header-wrapper { 
     	position: fixed;
     }
+
+	#header, #side-header {
+		background-attachment: initial !important;
+		height: 150px;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
 }
 
 @media only screen and (max-width: 800px){
+
+	#info, #map {float: none;margin: 0;padding: 0;width: 100%}
+
 	.fusion-columns-5 .fusion-column:first-child,
 	.fusion-columns-4 .fusion-column:first-child,
 	.fusion-columns-3 .fusion-column:first-child,
